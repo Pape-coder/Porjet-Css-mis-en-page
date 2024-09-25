@@ -1,0 +1,161 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+* {margin: 0%;
+   padding: 0%;
+   box-sizing: border-box;
+
+}
+body {font-family:'Roboto', sans-serif;
+
+}
+a {
+    
+    text-decoration: none;
+    margin-left: 150px;
+    margin-right: 150px;
+    justify-content: 
+}
+    
+img {
+    width: 40%;
+    padding: 9px;
+    margin: 9px;
+    justify-content: center;
+}
+.navbar { 
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+
+}
+.navbar ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none; 
+    color: rgb(255, 255, 255);
+}
+.navbar ul a {
+    padding: 10px;
+    margin: 10px;
+    color: rgb(105, 105, 105);
+}
+.navbar ul a:hover {
+    background-color: rgb(82, 211, 166);
+}
+body{
+    background-color: rgb(255, 255, 255);
+}
+body{
+    padding: 35px;
+    margin: 0px;
+}
+div{
+    width: 9%;
+}
+div{
+    padding: 30px;
+    margin: 30px;
+    text-align: center;
+}
+div{
+    display: flex;
+    padding: 50px;
+    margin: 50px;
+}
+.image {
+     width: 10%;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    flex-direction: column;
+    justify-content: center;
+}
+h1 {
+    display: block;
+    color: rgb(82, 211, 166);
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 37px;
+    font-weight: 80;
+    padding: 50px;
+}
+#p1 
+{
+    display:inline-block;
+    font-weight: 300;
+    margin-right: auto;
+    margin-left: 137px;
+    justify-content: space-around;
+
+}
+#p2
+{
+    display:inline-block;
+    font-weight: 300;
+    margin-right: 100px;
+    margin-left: auto;
+    
+}
+#p1{
+    padding: 50px;
+}
+#p2{
+    margin: 50px; ;
+}
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 15px;
+    
+}
+.vert {
+    background-color: rgb(82, 211, 116);
+    height: 345px;
+    width: 300px;
+    border-radius: 5%;
+}
+.bleu1{
+    background-color: rgba(35, 118, 201, 0.968);
+    height: 345px;
+    width: 300px ;
+    border-radius: 5% ;
+}
+.bleu2{
+    background-color: rgba(14, 14, 47, 0.938);
+    height: 345px;
+    width: 300px;
+    border-radius: 5%;
+}
+.vert{
+    align-content: center;
+    margin-left: 100px;
+    margin-right: auto;
+    flex-direction: column;
+}
+.bleu1{
+    align-content: center;
+    padding: 50%;
+    margin: auto;
+    flex-direction: column;
+
+}
+.bleu2{
+    align-content: center;
+    margin: auto;
+    flex-direction: column;
+}
+img{
+    padding-block: 12px;
+    margin: -30px;
+ }   
+ .one{
+    margin-left: 0%;
+    margin-right:  700px;
+    color: aliceblue;
+    font-size: 25px;
+    margin: -50px;
+    width: 20px;
+
+ }
+
